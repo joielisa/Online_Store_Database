@@ -1,6 +1,6 @@
 --Create Tables
 
-USE OnlineClothesStore
+USE OnlineClothesStore  --this is the name of the database I created
 CREATE TABLE Customers
 (
 	CustomerID VARCHAR(250) PRIMARY KEY,
@@ -43,7 +43,7 @@ INSERT INTO Products
 		   (002, 'Felsam Black Hoodie', 'Felsam', 49.95,6),
 		   (003, 'Felsam Tank', 'Felsam',15.00,8)
 
---Now I need to check if the company has a customer called ìJonathan Riversî registered
+--Now I need to check if the company has a customer called ‚ÄúJonathan Rivers‚Äù registered
 
 SELECT 
 	*
